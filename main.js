@@ -55,8 +55,8 @@ while (opcao != 0) {
     if (sensor) {
 
       let valor = Number(prompt("Digite o valor da leitura: "));
-      let data = prompt("Digite a data: ");
-      let hora = prompt("Digite a hora: ");
+      let data = prompt("Digite a data dd/mm/aaaa: ");
+      let hora = prompt("Digite a hora 00:00: ");
 
       let leitura = new Leitura(sensor, valor, data, hora);
 
